@@ -1,0 +1,19 @@
+
+html {
+    /*margin: auto;*/
+    background: radial-gradient(white, black) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    min-height: 476px;
+}
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    /*background: transparent;*/
+    font-size: 12px;
+    height: 100%;
+    min-height: 476px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
