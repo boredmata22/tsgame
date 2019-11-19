@@ -1,5 +1,3 @@
-"# Game starter using HTML, CSS, TypeScript, WebPack 
-
 
 # Installation:
 Open console and execute these commands in order to:
@@ -16,10 +14,14 @@ npm install                                             :: installs dependencies
 
 # Compilation:
 You need to execute this command every time you want to continue developing your game.  
-Open console, make sure you are in the "git/tsgame" folder and execute:
+Open console, make sure you are in the `git/tsgame` folder and execute:
 ```cmd
 npm run w
 ```
 It will watch your source files and re-compile them every time you change them.  
 This command will run until you kill it with "Ctrl + c".
+
+# Run:
+Open `dist/index/index.html` file in your browser.  
+If you are using Intellij Idea, open the file and click the browser icon in the upper right corner.
 
