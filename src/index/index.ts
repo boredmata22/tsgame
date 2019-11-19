@@ -3,7 +3,7 @@ import "./index.css";
 import {buildElement} from '../utils/html';
 
 async function main() {
-  console.log('hello game!');
+  console.log('hello sd game!');
 
   const buttonNode = buildElement('button', {
     textContent: 'Click me',
