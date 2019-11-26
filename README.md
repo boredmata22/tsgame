@@ -12,16 +12,13 @@ cd tsgame                                               :: open cloned project
 npm install                                             :: installs dependencies
 ```
 
-# Compilation:
+# Compilation and running:
 You need to execute this command every time you want to continue developing your game.  
 Open console, make sure you are in the `git/tsgame` folder and execute:
 ```cmd
-npm run w
+npm run start
 ```
-It will watch your source files and re-compile them every time you change them.  
+This will watch your source files and re-compile them every time you change them.  
+It will also open web-browser with your game and it will automatically reload it when you make changes.  
 This command will run until you kill it with "Ctrl + c".
-
-# Run:
-Open `dist/index/index.html` file in your browser.  
-If you are using Intellij Idea, open the file and click the browser icon in the upper right corner.
 
